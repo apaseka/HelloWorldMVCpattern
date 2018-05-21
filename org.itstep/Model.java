@@ -4,8 +4,6 @@ public class Model {
     private String hello;
     private String world;
     private String sentence;
-View view=new View() ;
-Model model;
 
     public String concatenateWords(String word1, String word2) {
         return sentence = word1 + " " + word2;
